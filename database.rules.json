@@ -2,5 +2,10 @@
   "rules": {
     ".read": true,
     ".write": true
+    // nobfunctions
+    //"site" {
+    // ".write": "root.child('users').child(auth.uid).val().level == 0" 
+    //}
+    
   }
 }
